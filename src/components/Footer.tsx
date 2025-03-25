@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { 
   Instagram, 
   Facebook, 
-  Twitter, 
+  X, 
   Youtube, 
   ChevronRight 
 } from "lucide-react";
@@ -33,9 +33,23 @@ const Footer = () => {
   const socialLinks = [
     { icon: <Instagram className="h-5 w-5" />, url: "https://instagram.com" },
     { icon: <Facebook className="h-5 w-5" />, url: "https://facebook.com" },
-    { icon: <Twitter className="h-5 w-5" />, url: "https://twitter.com" },
+    { 
+        icon: (
+            <svg 
+                xmlns="http://www.w3.org/2000/svg" 
+                viewBox="0 0 24 24" 
+                fill="currentColor" 
+                className="h-5 w-5"
+            >
+                <path d="M22 3h-4.7l-4.37 6.3L8 3H2l8.5 11.5L2 21h4.7l4.37-6.3L16 21h6l-8.5-11.5L22 3Z"/>
+            </svg>
+        ), 
+        url: "https://x.com"
+    },
     { icon: <Youtube className="h-5 w-5" />, url: "https://youtube.com" },
-  ];
+];
+
+
 
   return (
     <footer className="bg-brand-black text-white pt-16 overflow-hidden">
@@ -137,7 +151,9 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center pb-8">
           <p className="text-gray-500 text-sm mb-4 md:mb-0">
-            &copy; {currentYear} PowerFit. Todos os direitos reservados.
+            &copy; {currentYear} PowerFit. Todos os direitos reservados. | Desenvolvido Por  
+            <a href="https://sxbrinamf.netlify.app" target="_blank"
+            className="text-gray-500 font-semibold hover:text-brand-red transition duration-300"> Sabrina Marques</a>
           </p>
           <div className="flex space-x-6">
             <a href="#" className="text-gray-500 hover:text-brand-red text-sm">

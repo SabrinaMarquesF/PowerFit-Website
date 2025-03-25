@@ -39,7 +39,7 @@ const Contact = () => {
     {
       icon: <Phone className="h-5 w-5 text-brand-red" />,
       title: "Telefone",
-      details: "(11) 3456-7890",
+      details: "(00) 00000-0000",
       link: "tel:+551134567890",
     },
     {
@@ -119,7 +119,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-brand-red focus:border-brand-red transition-colors"
-                    placeholder="seu@email.com"
+                    placeholder="Seu melhor email"
                   />
                 </div>
                 <div>
@@ -137,7 +137,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-brand-red focus:border-brand-red transition-colors"
-                    placeholder="(11) 98765-4321"
+                    placeholder="(00) 00000-0000"
                   />
                 </div>
               </div>

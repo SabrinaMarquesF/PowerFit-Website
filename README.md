@@ -1,69 +1,48 @@
-# Welcome to your Lovable project
+# PowerFit - Site de Academia Moderno e Responsivo
 
-## Project info
+## Descrição
+O **PowerFit** é um site moderno e responsivo para uma academia de musculação e fitness. Com um design vibrante e profissional, o site transmite energia, motivação e confiança. Ele foi desenvolvido para fornecer uma experiência fluida e interativa aos visitantes, destacando as modalidades, planos e preços, depoimentos de alunos satisfeitos e um formulário de contato otimizado.
 
-**URL**: https://lovable.dev/projects/f47991ba-2a5c-4beb-b996-71eb28b4ed3c
+## Funcionalidades
 
-## How can I edit this code?
+- **Banner Principal**: Imagem de atletas treinando com um slogan impactante, além de um botão de chamada para ação "Agende uma Aula Grátis".
+- **Seções do Site**:
+  - **Sobre Nós**: Apresentação da academia, missão e diferenciais.
+  - **Modalidades**: Listagem das modalidades oferecidas (musculação, crossfit, funcional, yoga, pilates), com imagens e descrições.
+  - **Planos e Preços**: Tabela comparativa com opções de planos mensais, trimestrais e anuais.
+  - **Depoimentos**: Avaliações de alunos satisfeitos.
+  - **Contato**: Formulário de agendamento, telefone, endereço e mapa interativo.
+  
+- **Design Responsivo**: O site é totalmente otimizado para diferentes dispositivos, garantindo uma excelente experiência de navegação em desktops, tablets e celulares.
+- **SEO e Acessibilidade**: O site foi otimizado para SEO, com práticas recomendadas de carregamento rápido e acessibilidade.
+- **Animações e Efeitos Visuais**: Animações sutis, como transições suaves em botões e links, para melhorar a interação do usuário.
+- **Ícones Modernos**: Utilização de ícones e gráficos modernos para uma aparência limpa e profissional.
+- **Integração com Redes Sociais**: Links para redes sociais como Instagram, Facebook, YouTube e X (Twitter).
 
-There are several ways of editing your application.
+## Tecnologias Utilizadas
 
-**Use Lovable**
+- **React**: Framework JavaScript para construir interfaces de usuário dinâmicas.
+- **Tailwind CSS**: Framework de CSS para um design responsivo e personalizado.
+- **React Icons**: Biblioteca para adicionar ícones modernos ao site.
+- **Google Fonts**: Fontes personalizadas para melhorar a legibilidade.
+- **Mapbox ou Google Maps API**: Para exibir o mapa interativo da localização da academia.
+- **React Router**: Para navegação entre as páginas.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f47991ba-2a5c-4beb-b996-71eb28b4ed3c) and start prompting.
+## Como Rodar o Projeto
 
-Changes made via Lovable will be committed automatically to this repo.
+### Pré-requisitos
+Certifique-se de ter o **Node.js** instalado em seu computador. Caso não tenha, baixe e instale [aqui](https://nodejs.org/).
 
-**Use your preferred IDE**
+Design e Personalização
+O design foi baseado em uma paleta de cores vibrante, com predominância de preto, vermelho e branco, para criar um ambiente dinâmico e motivador.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Utilização de animações suaves, como hover em botões e links, para melhorar a experiência do usuário.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Contribuição
+Sinta-se à vontade para contribuir com este projeto! Você pode:
 
-Follow these steps:
+Abrir issues para reportar bugs ou sugerir melhorias.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Fazer fork do repositório e enviar pull requests.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/f47991ba-2a5c-4beb-b996-71eb28b4ed3c) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Create by [Sabrina Marques] (https://sxbrinamf.netlify.app)
