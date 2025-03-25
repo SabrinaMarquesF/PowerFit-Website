@@ -1,6 +1,7 @@
 
 import React, { useState } from "react";
 import { MapPin, Phone, Mail, Clock, Send } from "lucide-react";
+import { toast } from "@/hooks/use-toast";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -20,7 +21,11 @@ const Contact = () => {
     e.preventDefault();
     // Form submission logic would go here
     console.log("Form submitted:", formData);
-    alert("Mensagem enviada com sucesso! Entraremos em contato em breve.");
+    toast({
+      title: "Mensagem enviada com sucesso!",
+      description: "Entraremos em contato em breve.",
+      duration: 5000,
+    });
     setFormData({
       name: "",
       email: "",
@@ -226,7 +231,7 @@ const Contact = () => {
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen=""
+                allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
